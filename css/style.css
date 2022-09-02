@@ -1,0 +1,44 @@
+.reddish{border:1px solid red}
+.blueish{border: 1px dashed blue}
+body{
+    margin: 0;
+    padding:20px 200px ;
+    color: black;
+}
+h4{
+    width: 587px;
+    height: 64px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    margin: 0;
+}
+.italiq-block{
+    display: flex;
+    margin-top: 20px;
+}
+.italiq-block svg{
+    margin-right: 10px;
+}
+.italiq-block p{
+    width: 592px;
+    height: 51px;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4F4F4F;
+
+}
+.cheesecake{
+    margin-top: 50px;
+    width: 969px;
+    height: 470px;
+    border-radius: 12px;
+    background-image: url(../assets/photo1.png);
+    background-size: cover;
+}

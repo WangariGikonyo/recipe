@@ -89,5 +89,68 @@ h5{
 .input .toppings{
     font-weight: 600;
     font-style: italic;
+}
+#ingredients .input-background{
+    display: flex;
+    margin-bottom: 15px;
+}
+#ingredients .input-background .orange{
+    width: 31px;
+    height: 31px;
+    border-radius: 6px;
+    margin-right: 10px;
+    background-color:#F2994A;
+    color: #FFFFFF;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.orange p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    
 
+}
+.input-background p{
+    margin: 0;
+    width: 528px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+    margin: 0;
+}
+.source-link {
+    margin-top: 40px;
+}
+.source-link p{
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #BDBDBD;
+}
+#footer{
+    text-align: center;
+    margin-top: 40px;
+    color:#828282;
+    font-size: 14px;
+    margin-top: 50px;
+    font-family: 'Montserrat';
+}
+#footer .username{
+    font-weight: 700;
+    color: #828282;
+}
+#footer .site{
+    text-decoration: none;
+    color: #828282;
 }
